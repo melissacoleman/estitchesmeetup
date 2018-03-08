@@ -1,0 +1,19 @@
+title: Melissa Coleman
+email: info@melissacoleman.nl
+description: > # this means to ignore newlines until "baseurl:"
+  Melissa Coleman is an artist, curator and creative technologist specialised in fashion tech and connected objects. Her art and exhibitions critically explore the relationship of fashion, politics and technology. She exhibits worldwide and her work has been covered by New Scientist, Wired, The Guardian, Vogue, Fast Company and Dezeen. She co-founded Rotterdam’s V2_E-textile Workspace and London’s E-Stitches meetup at the V&A Museum. She is part of the core team that created Hackaball, a connected ball that teaches kids coding, one of Time Magazine's best inventions of 2015.
+titles: Artist | Freelance Curator | Creative Technologist and Wearable Tech Specialist
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://melissacoleman.github.io/estitchesmeetup"
+assets: "/assets/"
+twitter_username: liskatecoleman
+github_username: melissacoleman
+instagram_username: melissakatecoleman
+linkedin_username: melissa-coleman-1109ab33
+
+sass:
+    sass_dir: _sass
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

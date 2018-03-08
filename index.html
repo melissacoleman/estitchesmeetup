@@ -2,198 +2,122 @@
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title></title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-
-	<link rel="stylesheet" href="css/style.css">
-
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAtjpC5s28qHRqoDR7s9yKtzOo7hqDu8Xc" type="text/javascript"></script>
-<!--	<script src="js/libs/modernizr-2.0.6.min.js"></script>-->
+    <title></title>
+    <meta name="description" content="e-stitches, a meetup for textile and technology">
+    <meta name="author" content="Melissa Coleman">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+    try {
+    Typekit.load({
+        async: true
+    });
+} catch (e) {}
+</script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAtjpC5s28qHRqoDR7s9yKtzOo7hqDu8Xc"></script>
+    <!--	<script src="js/libs/modernizr-2.0.6.min.js"></script>-->
     <script src="js/libs/main.js"></script>
 
-
 </head>
+
 <body>
-    <div id="main" class="wrapper">
-        <section class="section__hero" id="e-stitches">
-            <div class="hero__inner-wrapper--left">
-                <h1 class="">E-STITCHES</h1>
-                <h4 class="">a meetup for textile and technology</h4>
-            </div>
-            <div class="hero__inner-wrapper--right hero"></div>
+    <header class="hero">
+        <img src="../img/hero.jpg"></img>
+        <div class="title">
+            <h1 class="">E-STITCHES</h1>
+            <h4 class="">a meetup for textile and technology</h4>
+        </div>
+    </header>
+
+    <main>
+        <section class="nextevent">
+            <p>Our next meeting is:<br/>
+                <span class="highlight">Fri 9 March</span> from <span class="highlight">18.00-21.00pm</span>
+                <br/>Talks by Leonie Tenthof van Noorden <a href="http://leoniesuzanne.com/">leoniesuzanne.com</a><br/> and Tsai-Chun Huang <a href="https://www.huangtsaichun.com/">huangtsaichun.com</a> <br/> Future date: Sat 21 April<br/><br/>
+            </p>
         </section>
-    </div><!-- #main -->
-	<div id="main-container">
-        <div class="mid-wrapper wrapper">
 
-            <section id="nextevent">
-                <div class="section__nextevent">
-                    <p>Our next meeting is:<br/>
-                        <span class="highlight">Fri 9 March</span> from <span class="highlight">18.00-21.00pm</span>
-						<br/>Talks by Leonie Tenthof van Noorden <a href="http://leoniesuzanne.com/">leoniesuzanne.com</a><br/>
-                        and Tsai-Chun Huang <a href="https://www.huangtsaichun.com/">huangtsaichun.com</a> <br/>
-						 Future date: Sat 21 April<br/><br/>
-                    </p>
-                </div>
-            </section>
+        <section class="location information_block">
+            <div class="location-info">
+                <p><span>Victoria and Albert Museum</span><br/> Cromwell Road<br/> London SW7 2RL<br/>
+                    <a href="https://citymapper.com/go/z3njut">public transport</a>
+                </p>
+                <p><span>We meet in the Digital Studio, Sackler Centre for arts education</span></p>
+                <p>The meet up is free of charge</p>
+            </div>
+            <div class="map">
+                <div id="googleMap"></div>
+            </div>
+        </section>
 
-            <section id="location">
-                <div class="nav-section section__location">
-                    <div class="wrapper__location">
-                        <div class="location__inner-wrapper--left">
-                            <div class="location-info bodytext">
-                                <p><span>Victoria and Albert Museum</span><br/>
-                                Cromwell Road<br/>
-                                London SW7 2RL<br/>
-                                <a href="https://citymapper.com/go/z3njut">public transport</a>
-                                </p>
-                                <p><span>We meet in the Digital Studio, Sackler Centre for arts education</span></p>
-                                <p>The meet up is free of charge</p>
-                            </div>
-                        </div>
-                        <div class="location__inner-wrapper--right">
-                                <div id="googleMap" style="width:570px;height:330px;"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <section class="community information_block">
+            <div><h2 class="bold-underline">community</h2></div>
+            <p>E-Stitches is a community of specialists in the space of e-textiles and wearables in London. Through meet ups and workshops we create a space for learning, discussions, skill share and networking.
+            </p>
+        </section>
 
-            <section id="community">
-                <div class="nav-section section__community">
-                    <div class="wrapper__information_block">
-                        <div class="information_block__inner-wrapper--left">
-                            <div class="information_block title__right">
-                                <div class="bold_underline"><h2>community</h2></div>
-                            </div>
-                        </div>
-                        <div class="information_block__inner-wrapper--right">
-                            <div class="bodytext community">
-                                <p>E-Stitches is a community of specialists in the space of e-textiles and wearables in London. Through meet ups and workshops we create a space for learning, discussions, skill share and networking.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <section class="photos">
+            <img src="../img/jacket.jpg"></img>
+            <img src="../img/kombucha.jpg"></img>
+        </section>
 
-            <section id="photos1">
-                <div class="section__photos">
-                    <div class="wrapper__photos">
-                        <div class="photos__inner-wrapper--left">
-                            <div class="group2_1"></div>
-                        </div>
-                        <div class="photos__inner-wrapper--right">
-                            <div class="group2_2"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <section class="members information_block">
+            <div><h2 class="bold-underline">members</h2></div>
+            <p>We are now close to 100 members from a wide variety of fields and experience, each bringing their own unique view on e-textiles. We are artists, designers, researchers, technologists, curators, choreographers, journalists, entrepreneurs and
+                industry thought leaders. Our community creates innovative and experimental applications for art, design, research and commerce.
+            </p>
+        </section>
 
-            <section id="members">
-                <div class="nav-section section__members">
-                    <div class="wrapper__information_block">
-                        <div class="information_block__inner-wrapper--left">
-                            <div class="information_block title__right">
-                                <div class="bold_underline"><h2>members</h2></div>
-                            </div>
-                        </div>
-                        <div class="information_block__inner-wrapper--right">
-                            <div class="bodytext members">
-                                <p>We are now close to 100 members from a wide variety of fields and experience, each bringing their own unique view on e-textiles. We are artists, designers, researchers, technologists, curators, choreographers, journalists, entrepreneurs and industry thought leaders. Our community creates innovative and experimental applications for art, design, research and commerce.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <section class="meetup information_block">
+            <div><h2 class="bold-underline">meetup</h2></div>
+            <p>We meet more or less bi-monthly at the Digital Learning Centre at the V&amp;A in London. Drop us a line if you're working on a project that you'd like to discuss with our community or if you're interested in joining our meetup group. We'd
+                love to meet you!
+            </p>
+        </section>
 
-            <section id="meetup">
-                <div class="nav-section section__meetup">
-                    <div class="wrapper__information_block">
-                        <div class="information_block__inner-wrapper--left">
-                            <div class="information_block title__right">
-                                <div class="bold_underline"><h2>meetup</h2></div>
-                            </div>
-                        </div>
-                        <div class="information_block__inner-wrapper--right">
-                            <div class="bodytext meetup s3">
-                                <p>We meet more or less bi-monthly at the Digital Learning Centre at the V&amp;A in London. Drop us a line if you're working on a project that you'd like to discuss with our community or if you're interested in joining our meetup group. We'd love to meet you!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <section class="photos">
+            <img src="../img/hands.jpg"></img>
+            <img src="../img/costumes.jpg"></img>
+            <img src="../img/camille_kasha.jpg"></img>
+            <img src="../img/group.jpg"></img>
+        </section>
 
-            <section id="photos2">
-                <div class="section__photos">
-                    <div class="wrapper__photos">
-                        <div class="photos__inner-wrapper--left">
-                            <div class="group4_1"></div>
-                        </div>
-                        <div class="photos__inner-wrapper--right">
-                            <div class="group4_2"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="photos3">
-                <div class="section__photos">
-                    <div class="wrapper__photos">
-                        <div class="photos__inner-wrapper--left">
-                            <div class="group4_3"></div>
-                        </div>
-                        <div class="photos__inner-wrapper--right">
-                            <div class="group4_4"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <section class="cta">
+            <a href="https://groups.google.com/forum/#!forum/e-stitches">Join our mailing list</a>
+        </section>
+    </main>
 
-            <section id="mailinglist">
-                <div class="nav-section section__mailinglist">
-                    <div class="wrapper__mailinglist">
-                        <div class="mailinglist__inner-wrapper--right">
-                            <div class="mailinglist">
-                                <h3>Join our <a href="https://groups.google.com/forum/#!forum/e-stitches">mailing list</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div> <!-- #mid-wrapper -->
-    </div> <!-- #main-container -->
+    <footer>
+        <h3>E-Stitches is organised by</h3>
 
-	<div id="footer-container">
-		<footer class="wrapper organisers">
-            <h3>E-Stitches is organised by</h3>
-
-            <div class="bodytext organiser"><div class="bodytext">Camille Baker, media artist, curator, researcher and reader at the UCA. Author of a book on mobile and wearable performance due 2017.</div>
-                <div class="bodytext_italic"><a href="http://swampgirl.net">camillebaker.me</a></div>
-                <div class="bodytext_italic">@swampgirl67</div>
+        <div class="organisers">
+            <div class="organiser">
+                <div>Camille Baker, media artist, curator, researcher and reader at the UCA. Author of a book on mobile and wearable performance due 2017.</div>
+                <div><a href="http://swampgirl.net">camillebaker.me</a></div>
+                <div class="bodytext-italic">@swampgirl67</div>
             </div>
 
-            <div class="bodytext organiser">
-                <div class="bodytext">Melissa Coleman, international artist and curator of wearables exhibitions. Creative Technologist at Hackaball.</div>
-                <div class="bodytext_italic"><a href="http://melissacoleman.nl">melissacoleman.nl</a></div>
-                <div class="bodytext_italic">@liskatecoleman</div>
+            <div class="organiser">
+                <div>Melissa Coleman, international artist and curator of wearables exhibitions. Creative Technologist at Hackaball.</div>
+                <div><a href="http://melissacoleman.nl">melissacoleman.nl</a></div>
+                <div class="bodytext-italic">@liskatecoleman</div>
             </div>
 
-            <div class="bodytext organiser">
-                <div class="bodytext">Irini Papadimitriou, Head of New Media Arts Development Watermans, V&amp;A Digital Programmes Manager, Digital Design Weekend, Digital Futures.</div>
-                <div class="bodytext_italic">@irini_mirena</div>
+            <div class="organiser">
+                <div>Irini Papadimitriou, Head of New Media Arts Development Watermans, V&amp;A Digital Programmes Manager, Digital Design Weekend, Digital Futures.</div>
+                <div class="bodytext-italic">@irini_mirena</div>
             </div>
-		</footer>
-	</div>
+        </div>
+    </footer>
 
 </body>
+
 </html>
