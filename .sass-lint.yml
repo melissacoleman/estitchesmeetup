@@ -1,0 +1,6 @@
+rules:
+  property-sort-order: 0
+  indentation:
+      - 2
+      -
+        size: 4
