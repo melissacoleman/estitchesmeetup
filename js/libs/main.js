@@ -4,9 +4,7 @@
 
 function initialize() {
     var mapOptions = {
-        // How zoomed in you want the map to start at (always required)
         zoom: 15,
-
         center: new google.maps.LatLng(51.4973223, -0.176),
         zoomControl: false,
         streetViewControl: false,
