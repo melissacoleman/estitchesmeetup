@@ -1,0 +1,18 @@
+.organiser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.organiser-img {
+    -webkit-clip-path: circle(60px at center);
+    clip-path: circle(60px at center);
+    -webkit-filter: grayscale(100%); // Safari 6.0 - 9.0
+    filter: grayscale(100%);
+    height: 150px;
+    margin-bottom: 1em;
+}
+
+.organiser-description {
+    margin-bottom: 1em;
+}
