@@ -1,0 +1,20 @@
+@import "color";
+
+.icon > svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+
+    &:hover {
+        path,
+        circle {
+            fill: var(--darkgrey);
+        }
+    }
+
+    path,
+    circle {
+        fill: var(--black);
+    }
+}

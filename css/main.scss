@@ -4,18 +4,10 @@
 @charset 'utf-8';
 
 @import 'normalize';
+@import 'color';
 @import 'fonts';
 @import 'footer';
-
-:root {
-    --black: #000;
-    --darkgrey: #333;
-    --grey: #555;
-    --mint: #5ec4b6;
-    --white: #fff;
-    --yellow: #ffff00a3;
-    --hero-background: rgba(100, 100, 100, .3);
-}
+@import 'social';
 
 @mixin display-grid {
     display: grid;
@@ -51,12 +43,21 @@ body {
 a {
     color: var(--darkgrey);
 
-    :visited {
+    &:visited {
         color: var(--black);
     }
-    :hover {
+
+    &:hover {
         color: var(--mint);
     }
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
 }
 
 .hero {
@@ -168,6 +169,17 @@ main {
     @extend %grid-helpers-base;
     text-align: center;
     @include gutter;
+    @media only screen and (min-width: 570px) {
+        @include display-grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: left;
+    }
+}
+
+.social-media-list {
+    @extend %grid-helpers-base;
+    @include gutter;
+    margin: 3em;
     @media only screen and (min-width: 570px) {
         @include display-grid;
         grid-template-columns: repeat(3, 1fr);
