@@ -229,7 +229,7 @@ function initialize() {
         mapOptions
     );
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(51.494691, -0.101129),
+        position: new google.maps.LatLng(51.494476, -0.101644),
         map: map,
         title: "LCC",
         icon: "/img/marker2.png"
