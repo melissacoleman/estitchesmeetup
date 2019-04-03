@@ -5,7 +5,7 @@
 function initialize() {
     var mapOptions = {
         zoom: 15,
-        center: new google.maps.LatLng(51.4973223, -0.176),
+        center: new google.maps.LatLng(51.494691, -0.101129),
         zoomControl: false,
         streetViewControl: false,
         mapTypeControl: false,
@@ -229,9 +229,9 @@ function initialize() {
         mapOptions
     );
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(51.4969, -0.1722),
+        position: new google.maps.LatLng(51.494691, -0.101129),
         map: map,
-        title: "V&A",
+        title: "LCC",
         icon: "/img/marker2.png"
     });
 }
