@@ -229,9 +229,9 @@ function initialize() {
         mapOptions
     );
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(51.494302, -0.101742),
+        position: new google.maps.LatLng(51.496479,-0.0648747),
         map: map,
-        title: "LCC",
+        title: "GreenLab",
         icon: "/img/marker2.png"
     });
 }
